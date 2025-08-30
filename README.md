@@ -160,3 +160,14 @@ Average Delivery Time: 9 days
 Other Modes: Second Class, followed by First Class.
 
 Heavy reliance on Standard shipping shows cost-efficiency but may impact delivery times.
+
+# Dashboard
+### Kpis
+<img width="1307" height="645" alt="image" src="https://github.com/user-attachments/assets/1489f843-c55a-4666-9f0a-364cb3a23f49" />
+
+### Customer & Product Analysis
+<img width="1302" height="638" alt="image" src="https://github.com/user-attachments/assets/71bf202c-6ad3-4817-b62a-7740b10787f1" />
+
+### Order & Profit Analysis
+<img width="1305" height="643" alt="image" src="https://github.com/user-attachments/assets/bd0e8eed-9840-45d4-8223-04c0ab3dd3f7" />
+
