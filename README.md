@@ -48,7 +48,7 @@ The tables are not initially connected. By establishing appropriate relationship
 # Methodology 
 To ensure reliable and actionable insights, the following steps were followed in preparing and analyzing the dataset:
 
-1. Data Cleaning & Preparation
+### 1. Data Cleaning & Preparation
 
 Removed unwanted columns that were not relevant to analysis.
 
@@ -56,7 +56,7 @@ Handled missing data by removing blank rows and eliminating duplicates.
 
 Standardized fields to ensure consistency across all tables.
 
-2. Data Integration & Modeling
+### 2. Data Integration & Modeling
 
 Merged data from all four tables (Customers, Dates, Products, Sales) into a unified model.
 
@@ -70,7 +70,7 @@ Sales → Dates (Many-to-One)
 
 Created a star schema to enable flexible and efficient reporting.
 
-3. KPI Development (using DAX)
+### 3. KPI Development (using DAX)
 
 Key performance indicators (KPIs) were calculated to measure business performance, including:
 
@@ -96,7 +96,7 @@ Average Discount = AVERAGE(Sales[Discount])
 
 Average Delivery Time = AVERAGE(Sales[Delivery Time])
 
-4. Custom & Conditional Columns
+### 4. Custom & Conditional Columns
 
 Order Value Category: A conditional column classifying purchases based on item ranges and discount eligibility.
 
