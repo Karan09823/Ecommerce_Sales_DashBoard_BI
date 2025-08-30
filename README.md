@@ -101,3 +101,62 @@ Average Delivery Time = AVERAGE(Sales[Delivery Time])
 Order Value Category: A conditional column classifying purchases based on item ranges and discount eligibility.
 
 Delivery Time (Days): A calculated column measuring delivery duration (Delivery Date - Ship Date).
+
+# Insights
+### Overall Business Performance
+
+Total Sales: $2.35M
+
+Total Profit: $1.93M
+
+Total Orders: ~5,000
+
+Total Customers: 793
+
+Average Order Value (AOV): $469
+
+Average Items per Order: 8
+
+Average Discount Given: 16%
+
+Average Delivery Time: 9 days
+
+## Regional & Segment Insights
+
+### Regional Sales (Customer Segment):
+
+Consumer Segment: Highest in the West, followed by East → Central → South.
+
+Corporate Segment: Highest in the East.
+
+Home Office Segment: Highest in the West.
+
+### Regional Sales (Product Category):
+
+## Across Technology, Furniture, and Office Supplies, the West dominates in sales.
+
+### Discount Insights
+
+Minimum Discount: 0%
+
+Maximum Discount: 80%
+
+Average Discount: 16%
+
+## While discounts attract customers, very high discounts may erode profitability.
+
+### Delivery Insights
+
+Maximum Delivery Time: 19 days
+
+Average Delivery Time: 9 days
+
+## Indicates potential improvement opportunities in logistics and supply chain management.
+
+## Shipping Insights
+
+### Most Used Shipping Mode: Standard Class
+
+Other Modes: Second Class, followed by First Class.
+
+Heavy reliance on Standard shipping shows cost-efficiency but may impact delivery times.
