@@ -1,4 +1,4 @@
-# Ecommerce_Sales_DashBoard_BI
+# Ecommerce_Sales_PowerBI
 # Overview
 This analysis evaluates the overall performance of the e-commerce business by examining key metrics such as total orders, total sales, and total profit. In addition, it explores other important KPIs and insights that highlight customer behavior, sales trends, and operational efficiency. The objective is to provide a comprehensive view of current performance and support data-driven decision making for future growth.
 
