@@ -15,3 +15,32 @@ Improving Delivery Performance – reducing and standardizing average delivery t
 
 #### Objective:
 Leverage data-driven insights to optimize pricing, discounting, and operational efficiency while enhancing customer experience. This will enable the company to increase sales, maximize profit, and strengthen long-term competitiveness.
+
+# Dataset Description
+The dataset consists of four relational tables that collectively provide insights into customers, products, sales, and timelines.
+
+### Customers Table
+
+Columns: Customer ID, Customer Name, Segment, Country, City, State, Postal Code, Region
+
+Provides demographic and segmentation details about each customer.
+
+### Dates Table
+
+Columns: Date, Day Name, Day, Week, Month, Quarter, Year
+
+Acts as a date dimension to enable time-based analysis and trend identification.
+
+### Products Table
+
+Columns: Product ID, Category, Sub-Category, Product Name, List Price
+
+Contains details about products, their classifications, and pricing.
+
+### Sales Table
+
+Columns: Row ID, Order ID, Order Date, Ship Date, Delivery Date, Ship Mode, Customer ID, Product ID, Quantity, Discount
+
+Captures transactional information including order details, delivery timelines, and discounts applied.
+
+The tables are not initially connected. By establishing appropriate relationships (e.g., linking Customer ID, Product ID, and Date fields across tables), a comprehensive data model can be built. This enables detailed insights into customer behavior, sales performance, product demand, and operational efficiency
