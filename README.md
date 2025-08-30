@@ -13,5 +13,5 @@ Optimizing Discount Strategy – maintaining attractive discounts that appeal to
 
 Improving Delivery Performance – reducing and standardizing average delivery time to enhance customer satisfaction.
 
-## Objective:
+##### Objective:
 Leverage data-driven insights to optimize pricing, discounting, and operational efficiency while enhancing customer experience. This will enable the company to increase sales, maximize profit, and strengthen long-term competitiveness.
