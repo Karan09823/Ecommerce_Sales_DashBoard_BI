@@ -44,3 +44,60 @@ Columns: Row ID, Order ID, Order Date, Ship Date, Delivery Date, Ship Mode, Cust
 Captures transactional information including order details, delivery timelines, and discounts applied.
 
 The tables are not initially connected. By establishing appropriate relationships (e.g., linking Customer ID, Product ID, and Date fields across tables), a comprehensive data model can be built. This enables detailed insights into customer behavior, sales performance, product demand, and operational efficiency
+
+# Methodology 
+To ensure reliable and actionable insights, the following steps were followed in preparing and analyzing the dataset:
+
+1. Data Cleaning & Preparation
+
+Removed unwanted columns that were not relevant to analysis.
+
+Handled missing data by removing blank rows and eliminating duplicates.
+
+Standardized fields to ensure consistency across all tables.
+
+2. Data Integration & Modeling
+
+Merged data from all four tables (Customers, Dates, Products, Sales) into a unified model.
+
+Established relationships between tables:
+
+Sales → Products (Many-to-One)
+
+Sales → Customers (Many-to-One)
+
+Sales → Dates (Many-to-One)
+
+Created a star schema to enable flexible and efficient reporting.
+
+3. KPI Development (using DAX)
+
+Key performance indicators (KPIs) were calculated to measure business performance, including:
+
+Total Customers = DISTINCTCOUNT(Customers[Customer ID])
+
+Total Orders = DISTINCTCOUNT(Sales[Order ID])
+
+Total Sales = SUM(Sales[Sales Amount])
+
+Total Quantity Sold = SUM(Sales[Quantity])
+
+Total Profit = [Total Sales] - SUMX(Sales, Sales[Discount] * Sales[Product Amount])
+
+Profit Margin = [Total Profit] / [Total Orders]
+
+Average Revenue per Customer = DIVIDE([Total Sales], [Total Customers], 0)
+
+Average Order Value (AOV) = DIVIDE([Total Sales], [Total Orders], 0)
+
+Average Items per Order = DIVIDE([Total Quantity Sold], [Total Orders], 0)
+
+Average Discount = AVERAGE(Sales[Discount])
+
+Average Delivery Time = AVERAGE(Sales[Delivery Time])
+
+4. Custom & Conditional Columns
+
+Order Value Category: A conditional column classifying purchases based on item ranges and discount eligibility.
+
+Delivery Time (Days): A calculated column measuring delivery duration (Delivery Date - Ship Date).
